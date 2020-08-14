@@ -3,7 +3,11 @@ A bot for Covid-19 self assessment built for Telegram messenger using [Botman fr
 
 **Deploying**
 
-Update App Key and App ID with those you get from https://developer.infermedica.com/
+Install the Botman framework using composer.
+```
+composer require botman/botman
+```
+Update App Key and App ID with your own keys from https://developer.infermedica.com/
 
 ```
 public function run()
