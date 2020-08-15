@@ -22,7 +22,7 @@ use Symfony\Component\Cache\Adapter\FilesystemAdapter;
 #covidassessmentbot
 $config = [
     'telegram' => [
-      'token' => '1118649975:AAFoonLaKcDr8i9WcqXAC6TXgCrrV_QpB-I'
+      'token' => ''
     ],
     'botman' => [
     'conversation_cache_time' => 30
