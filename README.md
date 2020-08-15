@@ -15,3 +15,15 @@ public function run()
     	$this->appId = "";
     	$this->appKey = "";
 ```
+Add your bot's API token from botfather. 
+
+```
+$config = [
+    'telegram' => [
+      'token' => ''
+    ]
+```
+Host your code and finally set the webhook.
+
+```
+https://api.telegram.org/bot<token>/setWebhook?url=<your-host-url>
